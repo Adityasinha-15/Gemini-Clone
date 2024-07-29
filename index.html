@@ -36,38 +36,7 @@
     </header>
 
     <div class="chat-list">
-        <div class="message-outgoing">
-            <div class="message-content">
-                <img src="images/user.jpg" alt="User Image" class="avatar">
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, natus.
-                </p>
-            </div>
-        </div>
-        <div class="message-incoming  ">
-            <div class="message-content">
-                <img src="images/gemini.svg" alt="Gemini Image" class="avatar">
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, natus.
-                </p>
-            </div>
-            <span class="icon material-symbols-outlined">content_copy</span>
-        </div>
-
-        <div class="message-incoming loading">
-            <div class="message-content">
-                <img src="images/gemini.svg" alt="Gemini Image" class="avatar">
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, natus.
-                </p>
-                <div class="loading-indicator">
-                    <div class="loading-bar"></div>
-                    <div class="loading-bar"></div>
-                    <div class="loading-bar"></div>
-                </div>
-            </div>
-            <span class="icon material-symbols-outlined">content_copy</span>
-        </div>
+ 
     </div>
 
     <div class="typing-area">
@@ -77,14 +46,16 @@
                 <button class="icon material-symbols-outlined">send</button>
             </div>
             <div class="action-button">
-                <span class="icon material-symbols-outlined">light_mode</span>
-                <span class="icon material-symbols-outlined">delete</span>
+                <span id="toggle-theme-button" class="icon material-symbols-outlined">light_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-outlined">delete</span>
             </div>
         </form>
         <p class="disclamer-text">
             Gemini may display inaccurate info, including about people, so doublee-check its response.
         </p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
